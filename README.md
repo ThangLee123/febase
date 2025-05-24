@@ -46,7 +46,7 @@ febase-main/
 │   └── pre-commit              # Git hook to run checks (e.g., linting) before committing
 ├── .prettierrc                 # Prettier config for consistent code formatting
 ├── README.md                   # Project overview, setup guide, and documentation
-├── components.json             # Likely a registry or config file for components (optional)
+├── components.json             # Configuration for shadcn/ui – manages installed components and settings (Autogenerate)
 ├── eslint.config.mjs          # ESLint config to catch code errors and enforce code style
 ├── jest.config.ts             # Jest config file for running tests
 ├── jest.setup.ts              # Setup file run before Jest tests (e.g., mocks or test tools)
@@ -61,12 +61,12 @@ febase-main/
 │   │   ├── layout.tsx         # Layout file shared across pages (e.g., header/footer)
 │   │   ├── page.tsx           # Default landing page of the app
 │   │   └── style-guide/       # ShaDCN UI design references or styled components
-│   ├── components/            # Configuration for shadcn/ui – manages installed components and settings (Autogenerate)
+│   ├── components/           
 │   │   ├── example/           # Example/demo components (use in src/app/example)
 │   │   └── ui/                # Shared ShaDCN UI components (buttons, inputs, cards, etc.)
 │   ├── hooks/					
 │   │   └── useExample.ts      # Custom React hooks (for logic reuse)
-│   ├── lib/					 # API clients, utilities, helpers
+│   ├── lib/					         # API clients, utilities, helpers
 │   │   ├── apiClient.ts       # Axios or fetch wrapper for making API calls
 │   │   └── utils.ts           # Auto generate by ShaDCN UI to help custom component with Tailwind in className
 │   ├── redux/
