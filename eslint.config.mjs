@@ -15,6 +15,7 @@ const eslintConfig = [
     rules: {
       //"@typescript-eslint/no-empty-object-type": ["warn"], // Change error to warning for empty object
       //"@typescript-eslint/no-unused-vars": ["warn"], // Change error to warning for ununsed item
+      "@typescript-eslint/no-explicit-any": "off", // Allow 'any' type everywhere
       "no-console": "warn", // Warn on console.log usage
     },
   },
