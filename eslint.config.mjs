@@ -13,6 +13,8 @@ const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
     rules: {
+      //"@typescript-eslint/no-empty-object-type": ["warn"], // Change error to warning for empty object
+      //"@typescript-eslint/no-unused-vars": ["warn"], // Change error to warning for ununsed item
       "no-console": "warn", // Warn on console.log usage
     },
   },

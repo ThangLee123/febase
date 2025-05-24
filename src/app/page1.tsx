@@ -1,12 +1,9 @@
-import React from 'react'
+import React from "react";
 
 
-const page1 = () => {
+function page1() {
   const testFunc = () => {console.log( "test" );};
-  testFunc();
-  return (
-    <div>page1</div>
-  )
+  return <div>page1</div>;
 }
 
-export default page1
+export default page1;
